@@ -1,5 +1,4 @@
+#from ML_examples.k_means_penguins import *
+from cs_scatter3d import *
 
 
-from cs_random import simulate_birthdays
-
-simulate_birthdays(22)

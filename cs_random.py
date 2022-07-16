@@ -17,8 +17,7 @@ def simulate_birthdays(total_birthdays):
         else:
             random_day = random.randint(1, 31)
 
-        birthday = str(i) + ': ' + random_month + ' ' + str(random_day)
+        birthday = random_month + ' ' + str(random_day)
         birthdays.append(birthday)
-        print(birthday)
 
-    print(birthdays)
+    return birthdays
